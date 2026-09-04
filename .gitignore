@@ -1,6 +1,6 @@
-# never ship product PDFs or buyer data from the public repo
 product/
 *.pdf
+vsl/slides/
 .creds/
 node_modules/
 .DS_Store
