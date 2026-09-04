@@ -44,7 +44,7 @@ for **$19** (launch price, $79 value).
 
 ## Live URL
 
-**https://secondbloom.vercel.app** (final URL confirmed after deploy)
+**https://secondbloom-glow.vercel.app** (final URL confirmed after deploy)
 
 ## Content assets
 

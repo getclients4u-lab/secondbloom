@@ -88,7 +88,7 @@ Thank you! Your order is confirmed.
 YOUR PERSONAL ACCESS CODE: ${code || 'SB-XXXXX-XXXXX'}
 
 OPEN YOUR DOWNLOADS:
-→ https://secondbloom.vercel.app/download.html
+→ https://secondbloom-glow.vercel.app/download.html
 (enter your email + access code above)
 
 WHAT'S INSIDE (8 deliverables):

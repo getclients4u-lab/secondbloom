@@ -154,4 +154,4 @@ THE CHANGE, MANAGED.
 - **Slides:** UPPERCASE, blush/plum background, white + rose emphasis text (see render_slides.py). ~72 slides × ~4.2s ≈ 5:00.
 - **Voice:** ElevenLabs "Chad" (PeMXWXe7DDCb8HldBr2s) — warm, mid-tempo, authoritative-but-kind. Rate ≈ 150 wpm.
 - **Music bed (when available):** soft piano/ambient, −25 LUFS under voice.
-- **CTA end-card:** secondbloom.vercel.app + Stripe payment link.
+- **CTA end-card:** secondbloom-glow.vercel.app + Stripe payment link.

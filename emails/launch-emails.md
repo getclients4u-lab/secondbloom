@@ -79,7 +79,7 @@ I built it. It's called **The Second Bloom Method™** — and it's launching to
 
 Every census, checklist and script is printable, beautiful on your phone, and written in plain English by someone who's lived it and read the research.
 
-👉 **[Start your Second Bloom — $19 →]**(PAYLINK_URL)
+👉 **[Start your Second Bloom — $19 →]**(https://buy.stripe.com/test_dRm3cwafe1gLgmbgJx1Nu0j)
 
 You've spent enough 2 AMs googling. Tonight, spend 20 minutes reading the Core Guide — and start the Census in the morning.
 
@@ -121,7 +121,7 @@ You currently spend 30 minutes a night lying awake staring at the ceiling. That'
 
 The launch price is **$19 — 76% off the $79 value** — and it's already ticking up. When the launch window closes, the price closes with it.
 
-👉 **[One click. Instant access. Start tonight. →]**(PAYLINK_URL)
+👉 **[One click. Instant access. Start tonight. →]**(https://buy.stripe.com/test_dRm3cwafe1gLgmbgJx1Nu0j)
 
 You survived your first puberty. You're going to *bloom* through this one — you just need the right map.
 
