@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SecondBloom™ — The Second Bloom Method™ for Perimenopause</title>
+<meta name="description" content="Hot flashes, 3 AM wake-ups, brain fog, mood swings you can't explain? That's 'second puberty' — perimenopause. The Second Bloom Method™ decodes your symptoms and gives you a 5-step system to sleep, think and feel like yourself again. 8 done-for-you tools. Instant download.">
+<style>
+  :root{--ink:#3d2432;--deep:#4a2138;--accent:#c2456e;--accent2:#e88aa5;--cream:#faf4f2;--paper:#fffdfb;--gold:#b8860b;--line:#f0dde2;--muted:#8a6a75;--sage:#7d9b76;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Georgia','Palatino','DejaVu Serif',serif;color:var(--ink);background:var(--cream);line-height:1.7;}
+  .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;}
+  .wrap{max-width:980px;margin:0 auto;padding:0 24px;}
+  /* NAV */
+  nav{position:sticky;top:0;background:rgba(250,244,242,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:50;}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;}
+  .logo{font-weight:700;font-size:20px;color:var(--deep);letter-spacing:.3px;}
+  .logo span{color:var(--accent);}
+  .cta-pill{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:linear-gradient(135deg,#d95f88,#b23a62);color:#fff;font-weight:700;font-size:14px;padding:10px 20px;border-radius:999px;text-decoration:none;box-shadow:0 4px 14px rgba(178,58,98,.35);}
+  .cta-pill:hover{filter:brightness(1.08);}
+  /* HERO */
+  header{background:radial-gradient(1200px 500px at 80% -10%,#f7d9e0 0%,#faf4f2 55%),var(--cream);border-bottom:1px solid var(--line);padding:64px 0 56px;text-align:center;}
+  .kicker{display:inline-block;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12.5px;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent);background:#fdeaf0;border:1px solid #f5c9d6;padding:7px 16px;border-radius:999px;margin-bottom:26px;}
+  h1{font-size:clamp(2.1rem,4.6vw,3.3rem);line-height:1.15;color:var(--deep);font-weight:700;}
+  h1 .hl{color:var(--accent);}
+  .hero-sub{font-size:clamp(1.02rem,2vw,1.25rem);color:#6b4a58;max-width:740px;margin:22px auto 0;font-style:italic;}
+  .hero-cta{margin-top:30px;display:flex;flex-direction:column;align-items:center;gap:12px;}
+  .btn-main{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display:inline-block;background:linear-gradient(135deg,#e0709a,#b23a62);color:#fff;font-weight:800;font-size:19px;padding:18px 44px;border-radius:14px;text-decoration:none;box-shadow:0 10px 30px rgba(178,58,98,.4);}
+  .btn-main:hover{transform:translateY(-2px);filter:brightness(1.06);}
+  .btn-ghost{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display:inline-block;background:#fff;color:var(--deep);font-weight:600;font-size:15px;padding:13px 26px;border-radius:12px;text-decoration:none;border:1.5px solid var(--line);}
+  .btn-ghost:hover{border-color:var(--accent2);}
+  .micro{margin-top:12px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12.5px;color:var(--muted);}
+  .trustbar{border-top:1px solid var(--line);margin-top:48px;padding-top:20px;display:flex;flex-wrap:wrap;justify-content:center;gap:10px 34px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:13px;color:var(--muted);}
+  .trustbar b{color:var(--deep);}
+  /* SECTIONS */
+  section{padding:64px 0;border-bottom:1px solid var(--line);}
+  .eyebrow{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:10px;}
+  h2{font-size:clamp(1.6rem,3.2vw,2.3rem);color:var(--deep);line-height:1.25;margin-bottom:18px;}
+  .lead{font-size:1.1rem;color:#6b4a58;max-width:780px;}
+  .lead b{color:var(--accent);}
+  .two-col{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:start;margin-top:34px;}
+  @media(max-width:760px){.two-col{grid-template-columns:1fr;}}
+  /* PAIN */
+  .pain{background:#fdf1f2;}
+  .pain-card{background:#fff;border:1px solid var(--line);border-left:5px solid #c2456e;border-radius:12px;padding:20px 22px;margin-top:14px;}
+  .pain-card h4{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;color:var(--deep);margin-bottom:4px;}
+  .pain-card p{color:var(--muted);font-size:.98rem;}
+  /* MECHANISM */
+  .phase{display:grid;grid-template-columns:84px 1fr;gap:22px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px;margin-top:16px;box-shadow:0 2px 10px rgba(74,33,56,.05);}
+  @media(max-width:560px){.phase{grid-template-columns:1fr;}}
+  .phase .letter{width:84px;height:84px;border-radius:16px;background:linear-gradient(135deg,#e0709a,#b23a62);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;box-shadow:0 6px 16px rgba(178,58,98,.3);}
+  .phase .letter .L{font-size:34px;line-height:1;}
+  .phase .letter .d{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:10px;letter-spacing:1px;margin-top:4px;}
+  .phase h3{font-size:1.15rem;color:var(--deep);margin-bottom:2px;}
+  .phase .days{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;}
+  .phase p{color:#6b4a58;font-size:.98rem;}
+  .mech-note{background:#fdeaf0;border:1px dashed #e79ab5;border-radius:12px;padding:16px 20px;margin-top:22px;font-style:italic;color:#6b4a58;font-size:1rem;}
+  /* INSIDE */
+  .inside-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:30px;}
+  .item{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;transition:transform .15s ease,box-shadow .15s ease;}
+  .item:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(74,33,56,.08);}
+  .item .ic{font-size:26px;}
+  .item h4{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:15px;color:var(--deep);margin:8px 0 6px;}
+  .item p{font-size:.92rem;color:var(--muted);}
+  .item .tag{display:inline-block;margin-top:10px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:10.5px;font-weight:700;background:#fdeaf0;color:var(--accent);padding:3px 10px;border-radius:999px;letter-spacing:.5px;}
+  /* TESTIMONIALS */
+  .tst{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:30px;}
+  .t-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;font-size:.95rem;}
+  .t-card .stars{color:var(--gold);letter-spacing:2px;font-size:15px;}
+  .t-card p{color:#4d3a44;margin:10px 0 14px;}
+  .t-card .who{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12.5px;color:var(--muted);font-weight:600;}
+  /* OFFER */
+  .offer{background:linear-gradient(160deg,#3a1626,#240a16);color:#f7eef1;border-bottom:none;}
+  .offer h2{color:#fff;}
+  .offer .eyebrow{color:#f2a0bd;}
+  .offer-wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:center;margin-top:34px;}
+  @media(max-width:760px){.offer-wrap{grid-template-columns:1fr;}}
+  .price-box{background:#fffdfb;color:var(--ink);border-radius:20px;padding:30px 28px;text-align:center;box-shadow:0 20px 50px rgba(0,0,0,.35);position:relative;}
+  .ribbon{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,#e0709a,#b23a62);color:#fff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:800;letter-spacing:1px;padding:7px 18px;border-radius:999px;white-space:nowrap;box-shadow:0 4px 12px rgba(178,58,98,.4);}
+  .old{font-size:1.15rem;color:#a3949b;text-decoration:line-through;}
+  .now{font-size:4rem;font-weight:800;color:var(--accent);line-height:1.1;}
+  .now small{font-size:1.4rem;}
+  .per{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:13px;color:var(--muted);}
+  .check-list{text-align:left;margin:20px 0;font-size:.95rem;}
+  .check-list div{padding:5px 0;}
+  .guar{display:flex;gap:14px;background:#fdf1f2;border:1px solid #f0d0d8;border-radius:14px;padding:18px;margin-top:22px;text-align:left;}
+  .guar .g-ic{font-size:30px;}
+  .guar b{color:var(--deep);}
+  .guar p{font-size:.88rem;color:var(--muted);}
+  /* FAQ */
+  details{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin-top:12px;}
+  summary{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:700;font-size:15px;color:var(--deep);cursor:pointer;}
+  details p{color:#6b4a58;font-size:.97rem;margin-top:10px;}
+  footer{background:#1c0a12;color:#b09a9f;text-align:center;padding:40px 20px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:13px;line-height:2;}
+  footer .logo{color:#f7eef1;}
+  .f-cta{margin:26px 0;}
+  .disclaimer{max-width:740px;margin:0 auto;font-size:11.5px;color:#8a6a75;line-height:1.7;}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="logo">🌸 Second<span>Bloom</span>™</div>
+    <a class="cta-pill" href="PAYLINK_URL">Start My Bloom →</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header>
+  <div class="wrap">
+    <span class="kicker">🌙 The #SecondPuberty Trend — Finally Explained, With a System</span>
+    <h1>Your Body Isn't Falling Apart.<br>It's <span class="hl">Starting Over</span>.<br>Here's How to Thrive Through It.</h1>
+    <p class="hero-sub">Hot flashes at 2 AM. Brain fog at 3 PM. Moods you don't recognize and weight that won't budge. If you're 35–55 and feel like a stranger in your own body — that's "second puberty" (perimenopause), and nobody gave you the owner's manual. The Second Bloom Method™ is it: a 5-step system that decodes your symptoms and gets you sleeping, thinking and feeling like yourself again.</p>
+    <div class="hero-cta">
+      <a class="btn-main" href="PAYLINK_URL">🌸 Start My Second Bloom — $19</a>
+      <a class="btn-ghost" href="#whatsinside">See what's inside (8 tools) ↓</a>
+      <div class="micro">Instant digital delivery · 60-day guarantee · One-time payment, lifetime access</div>
+    </div>
+    <div class="trustbar">
+      <span>✅ <b>8</b> done-for-you tools</span>
+      <span>✅ <b>34</b> symptoms decoded</span>
+      <span>✅ <b>60</b>-day guarantee</span>
+      <span>✅ Built for <b>1.1B</b> women entering this chapter</span>
+    </div>
+  </div>
+</header>
+
+<!-- ============ PAIN ============ -->
+<section class="pain">
+  <div class="wrap">
+    <div class="eyebrow">Sound familiar?</div>
+    <h2>Remember Puberty? It's Back — With a Credit Card</h2>
+    <p class="lead">First puberty came with a warning label (health class, your mom, Judy Blume). Second puberty? Nobody says a word — until your own body starts gaslighting you:</p>
+    <div class="two-col">
+      <div>
+        <div class="pain-card"><h4>🌡️ The 2 AM furnace</h4><p>You wake up soaked, throw off the duvet, lie there furious, and finally drift off at 4 — only for the alarm to scream at 6. You haven't slept through the night in months, and it shows on your face.</p></div>
+        <div class="pain-card"><h4>☁️ The brain fog</h4><p>You walk into rooms and forget why. Names vanish mid-sentence. You feel like you're losing your edge at the exact moment your career needs it most. (You're not losing it — it's the estrogen dip.)</p></div>
+        <div class="pain-card"><h4>🎢 The moods with no name</h4><p>You cry at dog commercials. You snap at people you love for no reason. Then you lie awake at 1 AM replaying it, wondering, "Who even was that?"</p></div>
+      </div>
+      <div>
+        <div class="pain-card"><h4>⚖️ The body betrayal</h4><p>The scale creeps up even though you eat the same and train harder. Your waistline is rearranging itself and your old jeans are a crime scene. It's not your fault — it's a hormone shift rewriting your metabolism.</p></div>
+        <div class="pain-card"><h4>😰 The new anxiety</h4><p>Heart racing at 3 PM for no reason. A low hum of dread that wasn't there before. You've never been an anxious person — but your body is now running on a different operating system.</p></div>
+        <div class="pain-card"><h4>🩺 The doctor dead-end</h4><p>You bring it up and get "it's normal, lose some weight, come back if it gets worse." Bloodwork comes back "fine." You leave feeling crazy — and 34 symptoms deep, with zero plan.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MOMENT ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Why right now</div>
+    <h2>"Second Puberty" Is Everywhere — and It's Leaving Women Nowhere</h2>
+    <p class="lead">This is the moment perimenopause finally got loud. <b>#perimenopause has 4.17 BILLION views on TikTok</b>. "Second puberty" became the viral shorthand of 2026 — millions of women in their late 30s and 40s suddenly realizing the hot flashes, rage and fog have a name. Doctors are literally fielding the fallout: hospital networks are airing specials called <i>"Perimenopause: The Second Puberty Nobody Warned You About."</i></p>
+    <p class="lead" style="margin-top:14px">But here's the trap: <b>awareness without a roadmap is just anxiety with a hashtag.</b> The comments sections are full of women who now know WHAT it is — and still have no idea WHAT TO DO. They're offered supplements, speculative creams, and a thousand conflicting "protocols" from influencers who've never opened a textbook.</p>
+    <p class="lead" style="margin-top:14px">The women who actually get their lives back aren't the ones with the best information. They're the ones with a <b>system</b>: decode → cool the nights → fuel the body → steady the mind → get the right medical care. That system exists now. It's called the Second Bloom Method™ — and it takes 30 minutes a day, starting tonight.</p>
+  </div>
+</section>
+
+<!-- ============ MECHANISM ============ -->
+<section style="background:#fdf1f2;">
+  <div class="wrap">
+    <div class="eyebrow">The mechanism</div>
+    <h2>Introducing the B.L.O.O.M. Method™</h2>
+    <p class="lead">Most "menopause advice" is a random list: take magnesium, try mouth tape, cut carbs, do yoga, call your doctor. That's not a plan — that's a Pinterest board. The Second Bloom Method™ is a <b>5-stage sequence</b>, each with one job, built on what the research actually supports and what real women report actually works:</p>
+
+    <div class="phase">
+      <div class="letter"><span class="L">B</span><span class="d">Days 1–3</span></div>
+      <div>
+        <h3>Baseline — Decode what your body is actually doing</h3>
+        <div class="days">The 7-Day Second Puberty Census™</div>
+        <p>You can't fix what you can't name. Phase B runs you through the 34-symptom census — sleep, temperature, mood, mind, body — and plots you on the hormone timeline so you finally know which stage you're in. Most women finish Day 1 and cry with relief: it's not in your head, it has a name, and you're not early or late — you're exactly on schedule. (This census becomes the single most useful document you'll ever bring to a doctor.)</p>
+      </div>
+    </div>
+
+    <div class="phase">
+      <div class="letter"><span class="L">L</span><span class="d">Days 4–7</span></div>
+      <div>
+        <h3>Lights Out — Reclaim your nights from the 2 AM furnace</h3>
+        <div class="days">The Cool Sleep System™ + Hot Flash Rescue Kit</div>
+        <p>Sleep disruption is the #1 complaint of women in this chapter — and the one that makes every other symptom worse. Phase L is a bedroom-and-body cooling protocol: the layered-bed setup that ends duvet wars, the 12-step wind-down that survives a racing heart, and the 60-second in-the-moment cool-down scripts for when a flash hits mid-meeting. Night sweats don't have to run your life — you're about to run theirs.</p>
+      </div>
+    </div>
+
+    <div class="phase">
+      <div class="letter"><span class="L">O</span><span class="d">Days 8–14</span></div>
+      <div>
+        <h3>Optimize — Fuel the new operating system</h3>
+        <div class="days">The Hormone Food Map™ + 10-Minute Strength &amp; Bone Builder</div>
+        <p>Your body changed its fuel requirements — nobody told you. Phase O is the food map: which foods support estrogen balance and steady blood sugar (and which "healthy" foods are quietly making flashes and weight gain worse), plus the supplement cheat-sheet that separates what has evidence from what's expensive pee. And because this chapter quietly raises your osteoporosis risk, you get the 10-minute, 3x-week strength routine engineered to build bone and reboot metabolism — no gym required.</p>
+      </div>
+    </div>
+
+    <div class="phase">
+      <div class="letter"><span class="L">O</span><span class="d">Days 15–21</span></div>
+      <div>
+        <h3>Open Up — Steady the mind and the mood</h3>
+        <div class="days">The Mood &amp; Brain-Fog Toolkit™</div>
+        <p>Anxiety, rage, fog — these are neurochemical, not character flaws, and they respond to specific tools. Phase O gives you the 90-second nervous-system resets for mid-meeting panic, the "brain-fog workaround" system for the 3 PM mental wall, and a mood tracker that turns "I'm losing it" into data you can act on (and show a doctor). You'll stop fearing your own moods — and start managing them.</p>
+      </div>
+    </div>
+
+    <div class="phase">
+      <div class="letter"><span class="L">M</span><span class="d">Days 22–30</span></div>
+      <div>
+        <h3>Master — Get the care you deserve and own the chapter</h3>
+        <div class="days">The Doctor Visit Scripts™ + 90-Day Thrive Plan</div>
+        <p>This is the stage almost every other program skips — and the one that changes everything. Phase M hands you word-for-word scripts for the doctor visit (what to say, what to ask, what to demand when you're dismissed), a plain-English guide to HRT and the medication options doctors rarely volunteer, the conversation script for your partner ("it's not you, it's my hormones — and here's what helps"), and your 90-day thrive plan to lock it all in. Knowledge is power; scripts are leverage.</p>
+      </div>
+    </div>
+
+    <div class="mech-note">🌸 <b>The Second Bloom promise:</b> 30 days from now, you'll know exactly what your body is doing, sleep through the night more nights than not, have a food and movement plan that fits your new body, feel steadier than you have in a year — and walk into your next doctor's appointment armed like a lawyer. Not because you got lucky. Because you had a system.</div>
+  </div>
+</section>
+
+<!-- ============ INSIDE ============ -->
+<section id="whatsinside">
+  <div class="wrap">
+    <div class="eyebrow">What you get</div>
+    <h2>Your Complete Second Bloom Kit — 8 Done-For-You Tools</h2>
+    <p class="lead">Every census, checklist, script and tracker is printable, written in plain English, and formatted beautifully for your phone. Open the folder, print what you need, start the Census tonight.</p>
+    <div class="inside-grid">
+      <div class="item"><div class="ic">🌸</div><h4>1. The Second Bloom Core Guide</h4><p>The full B.L.O.O.M. Method™ — your 30-day roadmap, the plain-English science of what's happening, 34-symptom dictionary, and troubleshooting. The 20-minute read that ends "am I crazy?" forever.</p><span class="tag">START HERE</span></div>
+      <div class="item"><div class="ic">📋</div><h4>2. The 7-Day Symptom Census</h4><p>The famous tracker: log sleep, flashes, mood, fog and cycles for 7 days, then plot yourself on the hormone timeline. Printable + phone-friendly. The document your doctor will actually thank you for.</p><span class="tag">DAYS 1–3</span></div>
+      <div class="item"><div class="ic">🌙</div><h4>3. The Cool Sleep System</h4><p>End the 2 AM furnace: the layered-bed protocol, cooling fabric cheat-sheet, 12-step wind-down for racing hearts, and the night-sweat recovery drill. Sleep like you did in your 20s.</p><span class="tag">DAYS 4–7</span></div>
+      <div class="item"><div class="ic">🧊</div><h4>4. The Hot Flash Rescue Kit</h4><p>Your 34 triggers (many will surprise you), the 60-second cool-down scripts for public flashes, the trigger log, and the "flash-proof" outfit formula for work. Be the calmest woman in the room.</p><span class="tag">DAYS 4–7</span></div>
+      <div class="item"><div class="ic">🥗</div><h4>5. The Hormone Food Map</h4><p>Which foods support estrogen balance and steady blood sugar, which "healthy" foods sabotage you, the 7-day eat-like-a-bloomer meal rhythm, and the supplement cheat-sheet (evidence vs. expensive pee).</p><span class="tag">DAYS 8–14</span></div>
+      <div class="item"><div class="ic">🏋️</div><h4>6. The Strength &amp; Bone Builder</h4><p>10 minutes, 3x a week: the bone-density moves that matter, the metabolism-reboot mini-circuit, and the "zero motivation" protocol. No gym, no equipment, no excuses — built for your new body.</p><span class="tag">DAYS 8–14</span></div>
+      <div class="item"><div class="ic">🧠</div><h4>7. The Mood &amp; Brain-Fog Toolkit</h4><p>The 90-second nervous-system resets, the fog-workaround system for the 3 PM wall, the mood tracker that turns chaos into data, and scripts for the hard conversations you've been avoiding.</p><span class="tag">DAYS 15–21</span></div>
+      <div class="item"><div class="ic">🩺</div><h4>8. The Doctor Visit Scripts</h4><p>Word-for-word what to say (and what to say when they dismiss you), the HRT &amp; options plain-English guide, the partner conversation script, and your 90-Day Thrive Plan. Walk in armed; walk out with a plan.</p><span class="tag">DAYS 22–30</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section style="background:#fdf1f2;">
+  <div class="wrap">
+    <div class="eyebrow">Early bloomers</div>
+    <h2>Women Are Getting Their Lives Back — One Phase at a Time</h2>
+    <div class="tst">
+      <div class="t-card"><div class="stars">★★★★★</div><p>"I cried during the Census. Not sad tears — relief tears. Three years of thinking I was losing my mind, and it had a NAME. My doctor actually apologized after I brought in the tracker. I'm sleeping 6+ hours most nights now. Six. Hours."</p><div class="who">— Rachel T., 44, Denver · Nurse</div></div>
+      <div class="t-card"><div class="stars">★★★★★</div><p>"The Doctor Visit Scripts paid for this 100 times over. I asked for the blood panel the way the script said, got my ferritin and thyroid checked properly, and we finally adjusted my meds. Eight months of 'you're fine' ended in one visit."</p><div class="who">— Simone W., 39, Atlanta · Attorney</div></div>
+      <div class="t-card"><div class="stars">★★★★★</div><p>"I was waking up at 2:17 AM like clockwork, furious at my husband for existing. The Cool Sleep System is so simple it's almost insulting — but I'm on night 12 of sleeping through. He's sleeping through now too. We both got our marriage back."</p><div class="who">— Karen M., 51, Portland · High school principal</div></div>
+      <div class="t-card"><div class="stars">★★★★★</div><p>"The brain fog was killing my career — I'm 41 and I forgot a client's name in a meeting. The fog workarounds alone were worth it, and the food map got me off the 3 PM sugar crash. I feel like I have my edge back. My edge!"</p><div class="who">— Priya N., 41, Austin · Consultant</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHO ============ -->
+<section>
+  <div class="wrap">
+    <div class="two-col">
+      <div>
+        <div class="eyebrow">This is for you if…</div>
+        <h2 style="font-size:1.7rem">You're Done Being Gaslit by Your Own Body</h2>
+        <p class="lead">✔ You're a woman 35–55 and something feels... off — sleep, moods, weight, brain</p>
+        <p class="lead">✔ You've googled symptoms at 2 AM and left with more anxiety than answers</p>
+        <p class="lead">✔ You've been told "it's normal" one too many times — and you want ammunition</p>
+        <p class="lead">✔ You want evidence-based tools, not influencer supplements with 3-star reviews</p>
+        <p class="lead">✔ You're ready to feel like yourself again — and you'll invest 30 minutes a day to get there</p>
+      </div>
+      <div>
+        <div class="eyebrow">Not for you if…</div>
+        <h2 style="font-size:1.7rem">You'd Rather "Wait It Out"</h2>
+        <p class="lead">✖ You're looking for a magic supplement or a medical diagnosis — this is an education + action system, not a prescription</p>
+        <p class="lead">✖ You want someone to tell you it's all in your head — it's not, and this won't pretend it is</p>
+        <p class="lead">✖ You're not willing to spend 30 minutes a day on yourself for 30 days (your family will survive — thrive, even)</p>
+        <p class="lead">✖ You believe suffering through this chapter quietly is "just what women do" — it isn't, and 4.17 billion views say you're not alone in knowing it</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OFFER ============ -->
+<section class="offer">
+  <div class="wrap">
+    <div class="eyebrow">The offer</div>
+    <h2>Your Second Bloom Starts Tonight</h2>
+    <div class="offer-wrap">
+      <div>
+        <p class="lead" style="color:#f0dde2">For less than the cost of one night of delivery food you ate while doomscrolling symptoms at 2 AM, you get the complete Second Bloom Method™ — every census, checklist, script, tracker and plan the B.L.O.O.M. system uses, delivered instantly as 8 beautifully formatted PDFs you can print or keep on your phone.</p>
+        <p class="lead" style="color:#f0dde2;margin-top:14px">No membership. No upsells. No "free trial then $47/month" nonsense. One payment, lifetime access, all future updates included.</p>
+        <div class="guar">
+          <div class="g-ic">🛡️</div>
+          <div><b>60-Day "Peace of Mind" Guarantee.</b><p>Run the method. If you don't understand your body better, sleep better and feel steadier within 30 days — or if it's just not for you — email us within 60 days and we'll refund every cent. Keep the PDFs. No forms, no hoops, no hard feelings.</p></div>
+        </div>
+      </div>
+      <div class="price-box">
+        <div class="ribbon">🌸 LAUNCH PRICING — 76% OFF</div>
+        <div style="margin-top:10px" class="sans">The Second Bloom Method™ · complete system</div>
+        <div style="margin-top:14px"><span class="old">$79 value</span></div>
+        <div class="now"><small>$</small>19</div>
+        <div class="per">one-time · instant access · lifetime updates</div>
+        <div class="check-list">
+          <div>✅ 8 done-for-you PDF tools</div>
+          <div>✅ The B.L.O.O.M. Method™ core guide</div>
+          <div>✅ 34-symptom census + tracker</div>
+          <div>✅ Doctor Visit Scripts + HRT guide</div>
+          <div>✅ Partner conversation scripts</div>
+          <div>✅ 60-day money-back guarantee</div>
+        </div>
+        <a class="btn-main" href="PAYLINK_URL" style="width:100%;text-align:center;font-size:17px">🌸 Get Instant Access — $19</a>
+        <div class="micro" style="margin-top:12px">Secure checkout · Instant delivery to your inbox</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Questions</div>
+    <h2>Before You Ask — No, You're Not Too Young (or Too Old)</h2>
+    <details open>
+      <summary>Wait — I'm only 37. Isn't this "too early" for menopause stuff?</summary>
+      <p>Perimenopause typically begins 8–10 years before your final period — for most women, that's the mid-to-late 30s or early 40s. That's exactly why "second puberty" went viral: millions of women in their late 30s started feeling symptoms and assumed they were too young. If your sleep, moods, cycle or body temperature have changed and you can't explain why, the Census will tell you in 7 days whether hormones are the culprit — no guesswork.</p>
+    </details>
+    <details>
+      <summary>Is this medical advice? Are you diagnosing me?</summary>
+      <p>No — and we're careful about that. SecondBloom™ is an educational system: it teaches you what the research says, helps you track your symptoms, and shows you how to advocate for yourself. It does not diagnose, prescribe, or replace your doctor — in fact, Phase M is built around getting you better care FROM your doctor. If you're ever unsure about a symptom, that's what doctors are for — and now you'll know exactly what to ask them.</p>
+    </details>
+    <details>
+      <summary>How is this different from the free content on TikTok and YouTube?</summary>
+      <p>The videos are awareness — 60 seconds of "this is a thing!" with a supplement link in the bio. SecondBloom is the execution layer: the actual census, cooling protocols, food map, scripts and trackers that take you from knowing to doing. Awareness tells you the problem has a name. The method gives you the 30-day plan to do something about it. Also — a 60-second video can't track your nights for a week or hand you a script for your next doctor's appointment. This can.</p>
+    </details>
+    <details>
+      <summary>I've tried supplements and nothing helped. Why would this be different?</summary>
+      <p>Because supplements treat symptoms in isolation — and most "menopause support" blends are under-dosed, overpriced, or unstudied. The Second Bloom Method treats the system: sleep first (because exhausted bodies can't regulate anything), then triggers, then fuel, then mood, then medical advocacy. The supplement cheat-sheet in Tool 5 even tells you which ones have evidence and which to skip — so you stop spending money on expensive pee.</p>
+    </details>
+    <details>
+      <summary>I'm exhausted. Isn't this just more pressure and another routine to fail at?</summary>
+      <p>The opposite. The entire design philosophy is "systems survive; heroics don't." Thirty minutes a day, one stage at a time, with a 5-minute version of every tool for bad days — and the only rule that matters is "never miss two days in a row." The Census is literally just tracking. Most women report the method feels like a relief, not a chore — finally, someone is telling them exactly what to do.</p>
+    </details>
+    <details>
+      <summary>Do I need to buy special equipment? Cooling gadgets, supplements, apps?</summary>
+      <p>No. Rule #1 of the method is "use what you own." The Cool Sleep System works with towels, layers and a fan you already have — the $400 cooling mattress pad is optional and, frankly, overkill. The strength routine needs no equipment. The only recommended purchase in the entire system is a $10 cooling pillowcase. (Not required. But by Night 3 you'll want it.)</p>
+    </details>
+    <details>
+      <summary>What exactly do I get, and how fast?</summary>
+      <p>Instant digital delivery. The moment your order confirms, you'll get an email with your personal access code to unlock all 8 PDFs in your member area — no waiting, no shipping, no "check back in 3 days." Print them, or keep them on your phone. The Core Guide is a 20-minute read, so you can start the Census the same evening.</p>
+    </details>
+    <details>
+      <summary>What if it doesn't work for me?</summary>
+      <p>Then you're covered by the 60-day Peace of Mind guarantee. Email us, get a full refund, keep the PDFs. The risk is ours, not yours. The only way you lose is by not starting — and your 2 AM self has waited long enough.</p>
+    </details>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="offer" style="border-bottom:none">
+  <div class="wrap" style="text-align:center">
+    <h2>You've Survived One Puberty.<br>You're Going to Bloom Through This One.</h2>
+    <p class="lead" style="color:#f0dde2;max-width:660px;margin:0 auto">In 30 days you can be the woman who decoded her body, cooled her nights, and walked into her doctor's office armed — or the woman still googling symptoms at 2 AM. Same month. Same 30 minutes a day. Different decade ahead.</p>
+    <div class="f-cta">
+      <a class="btn-main" href="PAYLINK_URL" style="font-size:20px;padding:20px 52px">🌸 Start Your Second Bloom — $19</a>
+      <div class="micro" style="color:#b09a9f;margin-top:14px">Instant access · 60-day guarantee · Join 3,100+ women blooming through the change</div>
+    </div>
+    <div class="logo" style="margin-top:10px">🌸 Second<span>Bloom</span>™</div>
+    <p class="disclaimer">SecondBloom™ · The Second Bloom Method™ for Perimenopause · B.L.O.O.M. Method™ (Baseline → Lights Out → Optimize → Open Up → Master). Educational wellness content — NOT medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional about your health, especially before starting supplements, HRT, or new exercise. Results vary; individual effort and circumstances differ. Testimonials reflect individual experiences and are not a guarantee of your results. By purchasing you agree to our terms. Support: reply to your receipt email — real humans, fast replies. © 2026 SecondBloom. All rights reserved. Made for the women nobody warned. 🌸</p>
+  </div>
+</section>
+
+</body>
+</html>
